@@ -25,7 +25,7 @@ const AboutSection = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <p>
-              I'm 
+             I&#39;m
               {" "}
               <span className="font-bold text-green-500">
                 Bradley Smith
