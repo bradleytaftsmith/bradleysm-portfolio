@@ -22,3 +22,9 @@ npm run dev
 Thanks to [Hosna Qasmei](https://hosnaqasmei.com/) for her [portfolio tutorial](https://www.youtube.com/watch?v=7gnVzj_nMJw) and [template](https://github.com/hqasmei/tailwindcss-and-nextjs-portfolio). I did her tutorial for the heck of it and changed the template to my own content.
 
 Illustrations and avatars were generated using [Midjourney](https://www.midjourney.com/).
+
+## To Do
+- [ ] default night theme and display button properly
+- [ ] replace bank icon on project cards w crunchbase logo
+- [ ] breakout job titles as separate project attribute
+- [ ] project -> position (?)

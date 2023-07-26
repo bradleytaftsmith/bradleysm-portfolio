@@ -2,7 +2,7 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import { BsGithub, BsArrowUpRightSquare, BsBank2 } from "react-icons/bs"
 
 const projects = [
   {
@@ -10,23 +10,31 @@ const projects = [
     description:
       "Green Room is a platform to let musicians manage themselves, with event planning, team coordination, and financial tools.",
     image: "/greenroom.png",
-    github: "https://github.com/greenroomapp/",
+    crunchbase: "https://www.crunchbase.com/organization/green-room-app",
     link: "https://greenroom.app",
   },
   {
     name: "Banyan Water | Director of Product",
     description: "Banyan Water is an IoT-powered platform for commercial real estate managers to control and analyze their water usage.",
     image: "/banyan.png",
-    github: "https://github.com/404",
+    crunchbase: "https://www.crunchbase.com/organization/banyan-water",
     link: "https://banyanwater.com",
   },
   {
     name: "MineralSoft | Product Manager",
     description:
-      "MineralSoft is a portfolio management web application for oil and gas mineral rights and related royalty payments. It was acquired by Enverus in 2019.",
+      "MineralSoft is a portfolio management web application for oil and gas mineral rights and related royalty payments. It was acquired by DrillingInfo/Enverus in 2019.",
     image: "/mineralsoft.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
+    crunchbase: "https://www.crunchbase.com/organization/mineralsoft",
     link: "https://www.enverus.com/mineralsoft/",
+  },
+  {
+    name: "Blackbeard Data | Product Manager",
+    description:
+      "Blackbeard Data is a skunkworks product development shop building one-off and ongoing data collection and analytics products for the oil & gas industry.",
+    image: "/blackbeard.png",
+    crunchbase: "https://www.crunchbase.com/organization/blackbeard-data-services",
+    link: "https://blackbearddata.com/",
   },
 ]
 
@@ -61,8 +69,8 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
-                        <BsGithub
+                      <Link href={project.crunchbase} target="_blank">
+                        <BsBank2
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
