@@ -24,7 +24,6 @@ Thanks to [Hosna Qasmei](https://hosnaqasmei.com/) for her [portfolio tutorial](
 Illustrations and avatars were generated using [Midjourney](https://www.midjourney.com/).
 
 ## To Do
-- [ ] default night theme and display button properly
+- [ ] breakout job titles & timeframes as separate project attribute & add as subheaders
 - [ ] replace bank icon on project cards w crunchbase logo
-- [ ] breakout job titles as separate project attribute
-- [ ] project -> position (?)
+- [ ] default night theme and display button properly

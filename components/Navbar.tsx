@@ -44,7 +44,7 @@ export default function Navbar() {
             </Link>
             <div className="md:hidden">
               <button
-                className="p-2 text-gray-100 rounded-md outline-none focus:border-gray-900 focus:border"
+                className="p-2 text-gray-400 rounded-md outline-none focus:border-gray-900 focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
